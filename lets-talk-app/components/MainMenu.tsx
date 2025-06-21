@@ -133,7 +133,7 @@ const MainMenu = () => {
               <label className="text-base font-normal leading-[22.4px] text-sky-2">
                 Select Date and Time
               </label>
-              {/* <DatePicker
+              <DatePicker
                 preventOpenOnFocus
                 selected={values.dateTime}
                 onChange={(date) => setValues({ ...values, dateTime: date! })}
@@ -143,12 +143,6 @@ const MainMenu = () => {
                 timeCaption="time"
                 dateFormat="MMMM d, yyyy h:mm aa"
                 className="inputs w-full rounded p-2 focus:outline-hidden focus:border-blue-500 focus:ring-3 focus:ring-blue-200  "
-              /> */}
-              <DatePicker
-                showIcon
-                selected={selectedDate}
-                onChange={(date) => setValues({ ...values, dateTime: date! })}
-                icon="fa fa-calendar"
               />
             </div>
             <Button
