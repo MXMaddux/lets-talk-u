@@ -139,7 +139,6 @@ const MainMenu = () => {
                 onChange={(date) => setValues({ ...values, dateTime: date! })}
                 showTimeSelect
                 timeIntervals={15}
-                portalId="root"
                 timeCaption="time"
                 dateFormat="MMMM d, yyyy h:mm aa"
                 className="inputs w-full rounded p-2 focus:outline-hidden focus:border-blue-500 focus:ring-3 focus:ring-blue-200  "
